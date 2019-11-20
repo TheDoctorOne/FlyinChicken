@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.2" icons="true" automaticImage="PNG" generate-combined-fragments="true">  
+  <object id="1" language="java" name="EggMachine" project="EggMachine" file="/EggMachine/src/EggMachine.java" 
+    binary="false" label="eggMachine" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="393" y="0"/>    
+    <execution id="2">      
+      <position height="420" width="92" x="5" y="175"/>    
+    </execution>    
+    <execution id="27">      
+      <position height="21" width="92" x="5" y="621"/>    
+    </execution>    
+    <execution id="28">      
+      <position height="21" width="92" x="5" y="646"/>    
+    </execution>    
+    <execution id="29">      
+      <position height="21" width="92" x="5" y="685"/>    
+    </execution>    
+    <execution id="30">      
+      <position height="21" width="92" x="5" y="716"/>    
+    </execution>    
+    <execution id="31">      
+      <position height="21" width="92" x="5" y="744"/>    
+    </execution>    
+    <execution id="32">      
+      <position height="21" width="92" x="5" y="775"/>    
+    </execution>    
+    <execution id="33">      
+      <position height="21" width="92" x="5" y="848"/>    
+    </execution>    
+    <execution id="34">      
+      <position height="84" width="92" x="5" y="78"/>    
+    </execution>    
+    <execution id="36">      
+      <position height="21" width="92" x="5" y="120"/>    
+    </execution>    
+    <execution id="37">      
+      <position height="510" width="92" x="5" y="875"/>    
+    </execution>    
+    <execution id="39">      
+      <position height="21" width="92" x="5" y="917"/>    
+    </execution>    
+    <execution id="41">      
+      <position height="21" width="92" x="5" y="993"/>    
+    </execution>    
+    <execution id="43">      
+      <position height="21" width="92" x="5" y="1070"/>    
+    </execution>    
+    <execution id="45">      
+      <position height="21" width="92" x="5" y="1123"/>    
+    </execution>    
+    <execution id="47">      
+      <position height="21" width="92" x="5" y="1177"/>    
+    </execution>    
+    <execution id="49">      
+      <position height="21" width="92" x="5" y="1237"/>    
+    </execution>    
+    <execution id="51">      
+      <position height="21" width="7" x="48" y="1286"/>    
+    </execution>    
+    <execution id="53">      
+      <position height="21" width="92" x="5" y="1343"/>    
+    </execution>  
+  </object>  
+  <object id="54" language="java" name="GamePanel" project="EggMachine" file="/EggMachine/src/GamePanel.java" 
+    binary="false" label="gamePanel" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="372" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="88" x="101" y="196"/>    
+    </execution>    
+    <execution id="55">      
+      <position height="217" width="88" x="101" y="600"/>    
+    </execution>    
+    <execution id="62">      
+      <position height="63" width="88" x="101" y="905"/>    
+    </execution>    
+    <execution id="65">      
+      <position height="211" width="88" x="101" y="971"/>    
+    </execution>    
+    <execution id="67">      
+      <position height="21" width="88" x="101" y="1013"/>    
+    </execution>    
+    <execution id="69">      
+      <position height="21" width="7" x="145" y="1083"/>    
+    </execution>    
+    <execution id="71">      
+      <position height="21" width="7" x="145" y="1140"/>    
+    </execution>  
+  </object>  
+  <object id="72" language="java" name="Chicken" project="EggMachine" file="/EggMachine/src/Chicken.java" binary="false" 
+    label="chicken" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="165" y="0"/>    
+    <execution id="6">      
+      <position height="21" width="80" x="193" y="249"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="21" width="80" x="193" y="283"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="21" width="80" x="193" y="317"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="21" width="80" x="193" y="348"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="21" width="80" x="193" y="379"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="21" width="80" x="193" y="407"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="21" width="80" x="193" y="433"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="21" width="80" x="193" y="461"/>    
+    </execution>    
+    <execution id="22">      
+      <position height="21" width="80" x="193" y="489"/>    
+    </execution>    
+    <execution id="24">      
+      <position height="21" width="80" x="193" y="519"/>    
+    </execution>    
+    <execution id="26">      
+      <position height="21" width="80" x="193" y="553"/>    
+    </execution>    
+    <execution id="73">      
+      <position height="63" width="80" x="193" y="827"/>    
+    </execution>    
+    <execution id="64">      
+      <position height="21" width="80" x="193" y="926"/>    
+    </execution>  
+  </object>  
+  <message id="3" 
+    operation="GamePanel(Chicken,EggMachine,java.util.ArrayList&lt;java.awt.Rectangle&gt;,java.util.ArrayList&lt;java.awt.Rectangle&gt;,java.util.ArrayList&lt;java.awt.Rectangle&gt;,java.util.ArrayList&lt;java.awt.Image&gt;)" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" 
+    operation="Chicken(int,int,java.util.ArrayList&lt;java.awt.Rectangle&gt;,java.util.ArrayList&lt;java.awt.Rectangle&gt;,java.util.ArrayList&lt;java.awt.Image&gt;,EggMachine)" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="eggUpdateLeft():void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="eggUpdateRight():void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="getRectChicken():java.awt.Rectangle" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="getX():int" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="getY():int" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="17" operation="moveLEFT():void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="19" operation="moveRIGHT():void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="21" operation="setLoc(int,int):void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="23" operation="shotEggLeft():void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="25" operation="shotEggRight():void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="26"/>  
+  </message>  
+  <message id="35" operation="go():void" asynchronous="false">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="36"/>  
+  </message>  
+  <message id="38" operation="calculateLife():void" asynchronous="false">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="39"/>  
+  </message>  
+  <message id="40" operation="delLifeByLevel():void" asynchronous="false">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="41"/>  
+  </message>  
+  <message id="42" operation="ifHit():void" asynchronous="false">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="43"/>  
+  </message>  
+  <message id="44" operation="levelUp():void" asynchronous="false">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="45"/>  
+  </message>  
+  <message id="46" operation="lifeToShoot():void" asynchronous="false">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="47"/>  
+  </message>  
+  <message id="48" operation="randomTargets():void" asynchronous="false">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="49"/>  
+  </message>  
+  <message id="50" operation="restartGame():void" asynchronous="false">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="51"/>  
+  </message>  
+  <message id="52" operation="targetUpdate():void" asynchronous="false">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="53"/>  
+  </message>  
+  <message id="56" operation="addLife():void" asynchronous="false">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="57" operation="getLife():int" asynchronous="false">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>  
+  <message id="58" operation="getLevel():int" asynchronous="false">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="29"/>  
+  </message>  
+  <message id="59" operation="getLife():int" asynchronous="false">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="30"/>  
+  </message>  
+  <message id="60" operation="getShoot():int" asynchronous="false">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="31"/>  
+  </message>  
+  <message id="61" operation="getTime():int" asynchronous="false">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="32"/>  
+  </message>  
+  <message id="63" operation="chickenUpdate(java.awt.Graphics):void" asynchronous="false">    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="64"/>  
+  </message>  
+  <message id="66" operation="drawLoots(java.awt.Graphics):void" asynchronous="false">    
+    <end type="SOURCE" refId="65"/>    
+    <end type="TARGET" refId="67"/>  
+  </message>  
+  <message id="68" operation="loots():void" asynchronous="false">    
+    <end type="SOURCE" refId="65"/>    
+    <end type="TARGET" refId="69"/>  
+  </message>  
+  <message id="70" operation="bgUpdate(java.awt.Graphics):void" asynchronous="false">    
+    <end type="SOURCE" refId="65"/>    
+    <end type="TARGET" refId="71"/>  
+  </message>  
+  <message id="74" operation="delShoot():void" asynchronous="false">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="33"/>  
+  </message>
+</sequence-diagram>
